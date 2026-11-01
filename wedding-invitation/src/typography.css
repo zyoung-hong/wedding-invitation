@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Gowun+Dodum&display=swap');
+
+:root{
+  --font-ko:'Gowun Dodum','Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+  --font-display:'Cormorant Garamond',Georgia,serif;
+  font-family:var(--font-ko);
+  font-weight:400;
+  font-synthesis:none;
+  line-height:1.9;
+}
+body,input,button,select,textarea{font-family:var(--font-ko);font-weight:400}
+button,a,input,summary{-webkit-tap-highlight-color:transparent}
+h1,h2,h3,h4,p,small,strong,b,summary,.couple{font-family:var(--font-ko);font-weight:400}
+p{font-size:14px;line-height:2.15;letter-spacing:0}
+h2{font-size:28px;line-height:1.65;letter-spacing:-.7px}
+button,summary{font-size:13px;line-height:1.65;letter-spacing:0}
+.top nav{font-family:var(--font-ko);font-size:11px;letter-spacing:0}
+.top small{font-family:var(--font-display);font-size:10px;letter-spacing:1px}
+.top>a,.hero-top,.hero-side,.hero-copy h1,.hero-copy h1 span,.hero-copy h1 em,
+.hero-date,.hero-date span,.hero-date b,.folio,.folio>span,.folio h2,
+.script-heading,.script-heading span,.photo-edge,.story-note,
+.gallery .folio h2,.gallery-title h3,.gallery-title h3 em,
+.image-caption,.image-caption>span,.image-caption em,
+.gallery-pagination>span,.moments-heading>span,.moments-heading em,
+.moment-bottom h2,.moment-bottom h2 em,.save-date em,
+.calendar .month,.calendar .month b,.closing-top,.closing-top span,
+.closing .monogram,.closing .monogram span,.closing-script,
+.closing small,footer,footer span,footer em{
+  font-family:var(--font-display);font-weight:400;
+}
+.eyebrow,.chapter-label{font-family:var(--font-display);font-weight:500;font-size:11px;letter-spacing:1.7px}
+.invitation-copy>.chapter-label{font-family:var(--font-ko);font-size:11px;letter-spacing:1px}
+.folio.bottom>span:first-child{font-family:var(--font-ko)}
+.invitation-copy h2{font-family:var(--font-ko);font-size:23px;line-height:1.8;letter-spacing:-.6px}
+.invitation-copy p{font-size:14px;line-height:2.2}
+.hero-copy>p{font-family:var(--font-ko);font-size:12px;font-weight:400;letter-spacing:3px}
+.hero-copy .scroll{font-family:var(--font-ko);font-size:11px;letter-spacing:2px}
+.gallery-title p{font-family:var(--font-ko);font-size:12px;line-height:1.9;letter-spacing:1px}
+.gallery-pagination button{font-size:12px}
+.moment-bottom .chapter-label{font-family:var(--font-display);font-size:9px;font-weight:400;letter-spacing:1px}
+.moment-bottom p{font-size:13px;line-height:2}
+.info .folio,.story .folio{font-size:11px;letter-spacing:1px}
+.save-date span{font-family:var(--font-ko);font-size:12px;letter-spacing:.6px}
+.calendar .month{font-size:27px;letter-spacing:.8px}
+.calendar .month b{font-size:16px;margin-left:10px}
+.days{font-family:var(--font-ko);font-size:14px}
+.days b{font-family:var(--font-ko);font-size:12px;font-weight:400}
+#info .ceremony-date .ceremony-time{font-family:var(--font-ko);font-size:21px;font-weight:400;letter-spacing:-.5px}
+#info .ceremony-time strong{font-family:var(--font-ko);font-size:23px;font-weight:400}
+.location-heading>h2{font-family:var(--font-ko);font-size:28px;font-weight:400;letter-spacing:-.6px}
+.location-group>.venue{font-family:var(--font-ko);font-size:24px;line-height:1.7;font-weight:400;letter-spacing:-.5px}
+.location-group>.venue-address{font-family:var(--font-ko);font-size:13px;line-height:2}
+.info .actions a,.info .actions button{font-family:var(--font-ko);font-size:12px}
+.transport-info h3{font-family:var(--font-display);font-size:15px;letter-spacing:1.5px}
+.transport-info h4{font-family:var(--font-ko);font-size:15px;line-height:1.8;font-weight:400}
+.transport-info .transport-title{font-family:var(--font-ko);font-size:16px;line-height:1.8;letter-spacing:0;color:var(--wine);margin-bottom:10px}
+.transport-info p{font-family:var(--font-ko);font-size:14px;line-height:2.1}
+.contact h2,.upload h2{font-family:var(--font-ko);font-size:28px;line-height:1.7;letter-spacing:-.6px}
+.contact p{font-family:var(--font-ko);font-size:14px;line-height:2.15}
+.contact .contacts b,.contact summary{font-family:var(--font-ko);font-size:14px;font-weight:400}
+.contacts small,.contacts a{font-family:var(--font-ko);font-size:12px}
+.upload .upload-script{font-family:var(--font-display)!important;font-size:38px!important;font-weight:400}
+.upload .eyebrow,.contact .eyebrow{font-family:var(--font-display);font-size:11px;font-weight:500;letter-spacing:1.7px}
+.upload .file-label{font-family:var(--font-ko);font-size:14px}
+.upload .file-label span{font-family:var(--font-ko);font-size:11px;line-height:1.8}
+.file-label input{font-family:var(--font-ko);font-size:12px}
+.upload .consent,.upload .fine,.verification-status,.verification-status button{font-family:var(--font-ko);font-size:12px;line-height:1.9}
+.primary{font-family:var(--font-ko);font-size:15px;letter-spacing:.5px}
+.closing h2{font-family:var(--font-ko);font-size:19px;line-height:1.8;letter-spacing:0}
+.closing b{font-family:var(--font-ko);font-size:13px;font-weight:400;letter-spacing:1px}
+.closing a,.close,.light-controls button,.toast{font-family:var(--font-ko);font-weight:400}
+.closing a{font-size:11px}
+.light-controls>span{font-family:var(--font-display);font-size:16px}
+@media(max-width:360px){
+  .top nav{font-size:10px}
+  .invitation-copy h2{font-size:21px}
+  .invitation-copy p{font-size:13px}
+  #info .ceremony-date .ceremony-time{font-size:18px}
+  #info .ceremony-time strong{font-size:20px}
+  .info .actions a,.info .actions button{font-size:11px}
+}
+#info .ceremony-date .ceremony-time{display:flex;align-items:center;justify-content:center;gap:20px;margin:30px 0 12px;line-height:1.4}
+#info .ceremony-time .ceremony-day{font-family:var(--font-ko);font-size:14px;letter-spacing:.2px;padding:0;color:var(--ink)}
+#info .ceremony-time .ceremony-hour{display:flex;align-items:baseline;gap:7px;border-left:1px solid #c4b49b;padding:0 0 0 20px;color:var(--wine)}
+#info .ceremony-hour small{font-family:var(--font-ko);font-size:12px}
+#info .ceremony-hour strong{font-family:var(--font-display);font-size:34px;font-weight:400;letter-spacing:.5px}
+@media(max-width:360px){#info .ceremony-date .ceremony-time{gap:14px}#info .ceremony-time .ceremony-hour{padding-left:14px}#info .ceremony-hour strong{font-size:31px}#info .ceremony-time .ceremony-day{font-size:13px}}
